@@ -1,9 +1,18 @@
 import { Modal } from './components/feedback';
+import  { Breadcrumb} from "./components/anchors";
 
 function App() {
   return (
     <div className="feedback">
-      <Modal />
+
+      {/*Feedbacks*/}
+
+      {/*<Modal />*/}
+
+      {/*Anchors*/}
+
+      <Breadcrumb />
+
     </div>
   );
 }
